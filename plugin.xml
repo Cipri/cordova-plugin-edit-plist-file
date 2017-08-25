@@ -44,7 +44,9 @@
             </array>
         </config-file>
         
-        
+        <config-file parent="NSCalendarsUsageDescription" target="*-Info.plist">
+            <string>The app would like to use the calendar to allow select Date/Time and check Time Zone</string>
+        </config-file>
         
     </platform>
     
